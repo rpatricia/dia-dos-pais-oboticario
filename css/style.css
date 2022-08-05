@@ -1,11 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap');
 
 :root {
-    --main-color:#d3ad7f;
+    --main-color:#1955ce;
     --black:#13131a;
     --bg:#010103;
-    --border:.1rem solid rgba(255,255,255, .3);
-    --bg-brown:#876445;
+    --border:1px solid #1955ce;
+    --bg-green:#8ec640;
     
 }
 
@@ -41,7 +41,7 @@ html::-webkit-scrollbar-thumb {
 }
 
 body {
-    background: var(--bg);
+    background: #fff;
 }
 
 section {
@@ -50,7 +50,7 @@ section {
 
 .heading {
     text-align: center;
-    color: #fff;
+    color: var(--bg-green);
     /* text-transform: uppercase; */
     padding-bottom: 3.5rem;
     font-size: 4rem;
@@ -75,20 +75,20 @@ section {
 
 .btn.color {
     background: transparent;
-    color: #d3ad7f;
-    border: 2px solid  #d3ad7f;
+    color: #1955ce;
+    border: 2px solid  #1955ce;
 
 }
 
 .btn:hover {
     background: transparent;
-    border: 2px solid #d3ad7f;
-    box-shadow: inset 280px 0 0 0 #d3ad7f;
+    border: 2px solid #1955ce;
+    box-shadow: inset 280px 0 0 0 #1955ce;
     color: #fff;
 }    
 
 .header {
-    background: transparent;
+    background: #fff;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -116,7 +116,7 @@ section {
 }
 
 .header .icons div {
-    color: #fff;
+    color:var(--bg-green);
     cursor: pointer;
     font-size: 2.5rem;
     margin-left: 2rem;
@@ -249,7 +249,7 @@ section {
 .about .row {
     display: flex;
     align-items: center;
-    background: var(--bg-brown);
+    background: var(--black);
     flex-wrap: wrap;
 }
 
@@ -292,32 +292,10 @@ section {
     height: 10rem;
 }
 
-.menu .box-container .box h3 {
-    color: #fff;
-    font-size: 2rem;
-    padding: 1rem 0;
+.icons {
+    color: #8ec640;
 }
 
-.menu .box-container .box .price {
-    color: #fff;
-    font-size: 2.5rem;
-    padding: .5rem 0;
-}
-
-.menu .box-container .box .price span {
-    font-size: 1.5rem;
-    text-decoration: line-through;
-    font-weight: lighter;
-}
-
-
-.menu .box-container .box:hover {
-    background: #fff;
-}
-
-.menu .box-container .box:hover > * {
-    color: var(--black);
-}
 
 .products .box-container {
     display: grid;
@@ -338,7 +316,7 @@ section {
     line-height: 5rem;
     font-size: 2rem;
     border: var(--border);
-    color: #fff;
+    color: var(--bg-brown);
     margin: .3rem;
 }
 
@@ -369,7 +347,7 @@ section {
 }
 
 .products .box-container .box .content .price {
-    color: #fff;
+    color: var(--bg-brown);
     font-size: 2.5rem;
 }
     
@@ -384,7 +362,7 @@ section {
 .contact .row {
     display: flex;
     align-items: center;
-    background: var(--bg-brown);
+    background: var(--black);
     flex-wrap: wrap;
     gap: 1rem;
 }
@@ -413,12 +391,12 @@ section {
     align-items: center;
     margin-top: 2rem;
     margin-bottom: 2rem;
-    background: var(--bg);
+    background: #fff;
     border: var(--border);
 }
 
 .contact .row .inputBox span {
-    color: #fff;
+    color: var(--main-color);
     font-size: 2rem;
     padding-left: 2rem;
 }
@@ -427,7 +405,7 @@ section {
     width: 100%;
     padding: 2rem;
     font-size: 1.7rem;
-    color: #fff;
+    color: var(--bg-brown);
     text-transform: none;
     background: none;
 }
@@ -466,7 +444,7 @@ section {
  .blogs .box-container .box .content .title {
     font-size: 2.5rem;
     line-height: 1.5rem;
-    color: #fff;
+    color: var(--bg-brown);
  }
 
  .blogs .box-container .box .content .title:hover {
@@ -488,7 +466,7 @@ section {
  }
 
  .footer {
-    background: var(--bg-brown);
+    background: var(--black);
     text-align: center;
  }
 
@@ -504,7 +482,8 @@ section {
     color: #fff;
     border: var(--border);
     margin: .3rem;
-    border-radius: 50%;
+    border-radius: 8%;
+    
  }
 
  .footer .share a:hover {
