@@ -7,7 +7,7 @@
 :heavy_check_mark: JavaScript
 
 <p>Fiz esse projeto, para colocar em prática os conhecimentos que venho adquirindo sobre páginas responsivas, para todos os dispositivos de tela.<br>
-  Escolhi como tema o dia dos pais que é comemorado neste mês.
+  Escolhi como tema o dia dos pais que é comemorado nesse mês.
    
   Coloquei também minhas habiliades de marketing.Fiz uma copy sobre o  grupo Boticário homenagando os pais,reforçando os cuidados que tem com as pessoas, com a natureza e com o nosso planeta. <br>
    A página também faz o comercial do perfume Malbec,carro chefe da linha na  perfumaria masculina .
