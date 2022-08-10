@@ -14,7 +14,7 @@
 </p>
 
 ## Pré-Visualização do projeto:<br>
-[Página dia dos pais O Botiáio](https://dia-dos-pais-oboticario.netlify.app/)
+[Página dia dos pais O Boticário](https://dia-dos-pais-oboticario.netlify.app/)
 
 <div align="center"> <img src="assets2/readme.jpeg"
 
