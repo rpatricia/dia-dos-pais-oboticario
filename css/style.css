@@ -62,88 +62,40 @@ section {
 }
 
 .btn {
-  padding: 0.9rem 3rem;
-  background: var(--main-color);
-  color: #fff;
-  font-size: 1.8rem;
-  border-radius: 0.5rem;
   margin-top: 2.2rem;
+  display: inline-block;
+  padding: 0.9rem 3rem;
+  font-size: 1.8rem;
+  color: #fff;
+  /* background: black; */
+  border-radius: 0.5rem;
   position: relative;
-  box-sizing: border-box;
-  border: 1px solid var(--main-color);
+  overflow: hidden;
   z-index: 0;
-  font-weight: 600;
-  transition: all 0.3s;
+  background: var(--bg-green);
 }
 
 .btn::before {
   content: "";
   position: absolute;
-  display: block;
-  top: 0;
-  left: -50px;
-  width: 70%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
   height: 100%;
-  background: linear-gradient(90deg, transparent, #ffffff71, transparent);
-  transition: all 1s;
-  z-index: 1;
-  transform: translateX(-120px) skew(-20deg);
+  background: var(--main-color);
+  z-index: -1;
+  transition: 0.3s ease-in-out;
 }
 
 .btn:hover::before {
-  transform: translateX(300px) skew(-20deg);
+  width: 0;
+  height: 100%;
 }
 
-.btn:hover {
-  background: var(--bg-green);
-  border: 1px solid var(--bg-green);
+.btn1:hover::before {
+  width: 100%;
 }
-
-.btn1 {
-  display: inline-block; 
-  padding: 0.9rem 3rem;
-  background: var(--main-color);
-  color: #fff;
-  font-size: 1.8rem;
-  border-radius: 0.5rem;
-  margin-top: 2.2rem;
-  box-sizing: border-box;
-  border: 2px solid var(--main-color);
-  font-weight: 600;
-  transition: all 0.3s;
-}
-
-.btn1:hover {
-    background: transparent;
-    transition: all 0.5s;
-    border: 2px solid var(--main-color);    
-    color: #fff;
-    font-size: 700;
-}
-
-.btn2 {
-    display: inline-block; 
-    padding: 0.9rem 3rem;
-    background: var(--main-color);
-    color: #fff;
-    font-size: 1.8rem;
-    border-radius: 0.5rem;
-    margin-top: 2.2rem;
-    box-sizing: border-box;
-    border: 2px solid var(--main-color);
-    font-weight: 600;
-    transition: all 0.3s;
-  }
-
-  .btn2:hover {
-    background: transparent;
-    transition: all 0.5s;
-    border: 2px solid var(--main-color);    
-    color: var(--main-color);
-    font-size: 700;
-}
-
-
 
 .header {
   background: #fff;
